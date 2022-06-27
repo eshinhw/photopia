@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PHOTOPIA</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-container">
+        <div class="navbar">
+          <a href="/">
+            <div>
+              <span id="header-main-title">PHOTOPIA</span><br />
+              <span id="header-sub-title">Share Your Photos Worldwide</span>
+            </div>
+          </a>
+          <ul>
+            <div id="navbar-back-icon-list-elm">
+              <li><div class="icon" id="back-icon"></div></li>
+            </div>
+            <div id="navbar-add-icon-list-elm">
+              <li><div class="icon" id="add-icon"></div></li>
+            </div>
+            <div id="navbar-signout-icon-list-elm">
+              <li>
+                <a href="/signout/"><div class="icon" id="signout-icon"></div></a>
+              </li>
+            </div>
+            <div id="navbar-signin-icon-list-elm">
+              <li>
+                <a href="/signin.html"><div class="icon" id="signin-icon"></div></a>
+              </li>
+            </div>
+            <div id="navbar-register-icon-list-elm">
+              <li>
+                <a href="/register.html"><div class="icon" id="register-icon"></div></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <p id="error-box"></p>
+
+    <section class="section">
+      <div class="form-container">
+        <form class="form" id="signin-form">
+          <h1>SIGN IN</h1>
+          <div class="form-input-element">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="signin-username"
+              id="signin-username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+
+          <div class="form-input-element">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="signin-password"
+              id="signin-password"
+              placeholder="Create Password"
+              required
+            />
+          </div>
+          <button class="btn submit-btn" id="signin-btn" type="submit">Sign In</button>
+        </form>
+      </div>
+    </section>
+    <br />
+    <br />
+    <!-- Footer -->
+    <footer>
+      <a href="credits.html" id="credit-id">Credits</a>
+      <br />
+      <br />
+      <p>© 2022 UTSC CSCC09 Eddie Shin. All rights resolved.</p>
+      <br />
+    </footer>
+
+    <script src="js/api-service.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/signin.js"></script>
+  </body>
+</html>
