@@ -20,7 +20,7 @@
     let imageCurrPage = 1;
     let imagePrevPage = 1;
     let imageNextPage = 0;
-    let imageLastPage;
+    let imageLastPage = 0;
 
     let commentsCurrPage = 1;
     let commentsPrevPage = 1;
@@ -277,7 +277,7 @@
       showElement(addImageForm);
     });
 
-    document.querySelector("#add-img-form-id").addEventListener("submit", function (e) {
+    document.querySelector("#img-upload-btn").addEventListener("click", function (e) {
       e.preventDefault();
       const imgTitle = document.querySelector("#img-title-id").value;
       const imgDescription = document.querySelector("#img-description-id").value;
@@ -306,7 +306,7 @@
       apiService.deleteImage(activeUser, galleryOwner, currImgId, (err, res) => {
         if (err) return onError(err);
         if (res.error) return alert(res.error.message);
-
+        imageLastPage--;
         apiService.deleteAllComments(activeUser, galleryOwner, currImgId, (err, res) => {
           if (err) return onError(err);
           updateImage(galleryOwner, imagePrevPage);
