@@ -37,19 +37,6 @@ All of your work should be well organized. This directory should be organized as
 
 Your code must be of good quality and follow all guidelines given during lectures and labs. For more details, please refer to the rubric. Remember, any code found online and improperly credited can constitute an academic violation. 
 
-### Submission
-You should submit your work to your Github course repository and Gradescope.
-Before submitting your final version. It is strongly recommended to verify that your code is portable. To do so:
-
-- push your work to Github
-- clone it into a new directory
-- install all packages with the single command `npm install` that will install all packages found in the `package.json` file
-- start the app with the command `node app.js`
-
-As mentioned in the first lecture, if your code does not work like the above, you will automatically receive a 0.
-The TA will not be spending time exploring why your code does not work. Since everyone agreed to it in lecture 1,
-there will not be any exceptions granted.
-
 ## Authenticated Users and Multiple Galleries
 In this part, you are going to extend your API to support authenticated users and multiple galleries. Each user will now have his/her own gallery. Users will be authenticated through the API (local authentication based on sessions). In addition of supporting these feature, access to the API is ruled by the following authorization policy: 
 
