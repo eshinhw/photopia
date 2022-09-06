@@ -561,7 +561,7 @@ app.patch(
   }
 );
 
-app.use(express.static("docs"));
+app.use(express.static("static"));
 
 http.createServer(app).listen(PORT, function (err) {
   if (err) return err;

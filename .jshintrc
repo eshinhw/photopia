@@ -1,0 +1,9 @@
+{
+  "esversion": 9,
+  "browser" : true,
+  "globals": {
+    "apiService": true,
+    "Image": true,
+    "Comment": true
+  }
+}

@@ -1,3 +1,11 @@
+# OS Files
+Thumbs.db
 .DS_Store
-db/
-uploads/
+
+# node.js
+node_modules
+uploads
+db
+*-lock.json
+
+.env
