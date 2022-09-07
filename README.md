@@ -1,4 +1,4 @@
-# Project Pre-Setup
+# Photopia Web Gallery
 
 ## Session Secret Instructions
 
