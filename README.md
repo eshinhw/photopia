@@ -1,6 +1,16 @@
 # Photopia Web Gallery
 
-## Session Secret Instructions
+# Objective
+
+The objective of these assignments is to build an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook, Instagram or Google Photos. 
+
+## Project Set Up
+
+1. Once the repository is cloned, run `npm install` to install all required dependencies.
+2. Make sure `.env` is created with the valid `SESSION_SECRET` explained above.
+3. Run the app with `node app.js`.
+
+#### Session Secret in `.env`
 
 For session secret, create your own `.env` file in the root directory of the project with the variable name `SESSION_SECRET`.
 
@@ -9,16 +19,6 @@ SESSION_SECRET="PROVIDE_YOUR_SESSION_SECRET"
 ```
 
 The provided `SESSION_SECRET` will be used to initialize the session inside `app.js`.
-
-## Project Set Up Procedures
-
-1. Once the repository is cloned, run `npm install` to install all required dependencies.
-2. Make sure `.env` is created with the valid `SESSION_SECRET` explained above.
-3. Run the app with `node app.js`.
-
-# Objective
-
-The objective of these assignments is to build an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook, Instagram or Google Photos. 
 
 # Managing Users
 In this last assignment, you will concentrate on user authentication, authorization, and security. 
