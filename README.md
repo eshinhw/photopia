@@ -18,6 +18,8 @@ For session secret, create your own `.env` file in the root directory of the pro
 SESSION_SECRET="PROVIDE_YOUR_SESSION_SECRET"
 ```
 
+Create new one.
+
 The provided `SESSION_SECRET` will be used to initialize the session inside `app.js`.
 
 # Managing Users
