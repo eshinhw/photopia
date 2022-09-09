@@ -1,16 +1,20 @@
 # Photopia Web Gallery
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/41933169/189371029-f33b2713-142a-4606-aa0a-a2d87c0dbdd6.png" width="800"/>
+</p>
+
 ## Objective
 
-The objective is to build an web application called *The Web Gallery* where users can share pictures and comments only using vanilla JS, HTML and CSS. The final features of the application are similar to existing web applications such as Facebook, Instagram or Google Photos. 
+The objective is to build an web gallery application where users can share pictures and comments different images. The final functionalities of the application are similar to existing web applications such as Facebook, Instagram or Google Photos. 
 
-## Project Set Up
+## How to Run the App
 
 1. Once the repository is cloned, run `npm install` to install all required dependencies.
 2. Make sure `.env` is created with the valid `SESSION_SECRET` explained above.
 3. Run the app with `node app.js`.
 
-#### Session Secret in `.env`
+## Session Secret Setup in `.env`
 
 For session secret, create your own `.env` file in the root directory of the project with the variable name `SESSION_SECRET`.
 
