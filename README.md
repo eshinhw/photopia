@@ -1,7 +1,7 @@
 # Photopia Web Gallery
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/41933169/189371029-f33b2713-142a-4606-aa0a-a2d87c0dbdd6.png" width="800"/>
+  <img src="https://user-images.githubusercontent.com/41933169/189372336-852b592b-6119-4810-94f5-4b6afbb32180.png" width="800"/>
 </p>
 
 ## Objective
