@@ -26,7 +26,7 @@ The provided `SESSION_SECRET` will be used to initialize the session inside `app
 
 ## Main Functionalities
 
-- Frontend UI design with HTML/CSS only
+- Frontend UI design with HTML/CSS
 - Upload, browse and delete images
 - Leave comments on images
 - CRUD API for images and comments (paigination)
